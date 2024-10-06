@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Fonts CDN -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Russo+One&family=Sora:wght@100..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Bootstrap CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Odometer CSS CDN -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/odometer.js/0.4.8/themes/odometer-theme-default.min.css" />
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="SV-Favicon.png" type="image/x-icon">
+
+    <!-- Manual CSS -->
+    <!-- <link rel="stylesheet" href="main.css"> -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="aboutUs.css">
+    <link rel="stylesheet" href="blogs.min.css">
+    <link rel="stylesheet" href="devices.css">
+
+    <!-- Bootstrap Icons CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>Second Portfolio</title>
+
+    <style>
+        .section-header {
+            margin-top: 3rem;
+        }
+    </style>
+</head>
+
+<body class="complete-body">
+    <header>
+        <div class="nav-body">
+            <div class="nav-section">
+                <div class="navbar_logo">
+                    <a href="index.html" class="text-decoration-none">
+                        <div class="logo-img-container">
+                            <img src="port_logo_original.png" alt="">
+                        </div>
+                    </a>
+                    <a href="index.html" class="text-decoration-none text-dark">
+                        <h4>SHUBHNISH VERMA</h4>
+                    </a>
+                </div>
+                <div class="navbar_links">
+                    <ul>
+                        <a href="index.html">
+                            <li>Home</li>
+                        </a>
+                        <a href="about.html">
+                            <li>About</li>
+                        </a>
+                        <a href="work.html">
+                            <li>Work</li>
+                        </a>
+                        <a href="Blogs.html" class="current_nav_link">
+                            <li>Blog</li>
+                        </a>
+                        <a href="contact.html">
+                            <li>Contact</li>
+                        </a>
+                    </ul>
+                    <a href="contact.html"><button type="button" class="nav-btn">Hire Me!</button></a>
+                    <div class="menu-button-small-screen">
+                        <i class="bi bi-list" id="menu-btn"></i>
+                        <i class="bi bi-x" id="close-btn" style="display:none;"></i>
+                    </div>
+                </div>
+                <div class="menu-absolute-section">
+                    <div class="welcome-user">
+                        <h5><span>Hi!</span> Welcome to My Portfolio</h5>
+                    </div>
+
+                    <div class="icons-and-navLinks-menu">
+                        <a href="index.html" class="iconsAndNavLinks">
+                            <div class="left-icons">
+                                <i class="bi bi-house"></i>
+                            </div>
+                            <div class="right-navLinks">
+                                Home
+                            </div>
+                        </a>
+
+                        <a href="about.html" class="iconsAndNavLinks">
+                            <div class="left-icons">
+                                <i class="bi bi-person"></i>
+                            </div>
+                            <div class="right-navLinks">
+                                About
+                            </div>
+                        </a>
+
+                        <a href="work.html" class="iconsAndNavLinks">
+                            <div class="left-icons">
+                                <i class="bi bi-folder"></i>
+                            </div>
+                            <div class="right-navLinks">
+                                Work
+                            </div>
+                        </a>
+
+                        <a href="Blogs.html" class="iconsAndNavLinks current-open-link">
+                            <div class="left-icons">
+                                <i class="bi bi-blockquote-right"></i>
+                            </div>
+                            <div class="right-navLinks">
+                                Blog
+                            </div>
+                        </a>
+
+                        <a href="contact.html" class="iconsAndNavLinks">
+                            <div class="left-icons">
+                                <i class="bi bi-telephone"></i>
+                            </div>
+                            <div class="right-navLinks">
+                                Contact
+                            </div>
+                        </a>
+                    </div>
+                    <p class="menu-para">Website designed and developed by Shubhnish Verma</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <div class="overlay-body"></div>
+    <main class="carousel-back-about">
+        <div class="bg-overlay"></div>
+        <div class="container">
+            <div class="carousel-index-about">
+                <h1>Blog</h1>
+                <div class="breadcrumb-manually">
+                    <a href="index.html">
+                        <h4>Home </h4>
+                    </a><i class="bi bi-arrow-right"></i>
+                    <h4>Blog</h4>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+
+
+    <!-- Blogs Section content start here -->
+    <section>
+        <div class="blogs-page-section">
+            <div class="container">
+                <div class="blogs-page-dividing">
+
+
+                    <div class="left-blog-page-desc" id="blogContainer">
+                        <div class="blog-page-post-box" data-title="Mastering Web Development: Secrets to Enhance Your Coding Skills">
+                            <div class="blog-page-img-cont">
+                                <img src="blog-1-author.jpg" alt="">
+                            </div>
+
+                            <div class="blog-post-details-onPage">
+                                <h6><i class="fa-regular fa-user"></i> By Admin</h6>
+                                <h6><i class="fa-regular fa-calendar-alt"></i> Feb 12, 2024</h6>
+                                <h6><i class="fa-regular fa-comment"></i> Comment</h6>
+                            </div>
+                            <div class="heading-blog-post">
+                                <h5>Mastering Web Development: Secrets to Enhance Your Coding Skills</h5>
+                                <p>Web development encompasses both frontend and backend components. While the frontend
+                                    focuses on enhancing user interface and experience, the backend involves managing
+                                    server-side logic and databases. To excel in web development, building a strong
+                                    foundation is crucial. This involves mastering essential languages such as HTML,
+                                    CSS, and JavaScript...</p>
+
+                                <a href="https://medium.com/@shubhnishverma/mastering-web-development-secrets-to-enhance-your-coding-skills-547fe52d7f58"
+                                    target="_blank"><button class="nav-btn">Read More</button></a>
+                            </div>
+                        </div>
+
+
+                        <div class="welcome-on-blogPage-box slide-up-element">
+                            <i class="fas fa-quote-right"></i>
+                            <p>"Web development has been my passion ever since I started coding. From mastering Python
+                                and Django to creating responsive, user-friendly e-commerce platforms, I've focused on
+                                crafting seamless digital experiences. Each project is an opportunity to learn and grow,
+                                and I’m excited to bring my expertise in UI/UX and full-stack development to new
+                                challenges."</p>
+                            <div class="hr-with-name">
+                                <hr>
+                                <h4><i>Shubhnish Verma</i></h4>
+                            </div>
+
+                        </div>
+
+
+                        <div class="blog-page-post-box slide-up-element" data-title="Fibonacci Series in Python">
+                            <div class="blog-page-img-cont">
+                                <img src="fibonacci-sequence-blog.png" alt="">
+                            </div>
+
+                            <div class="blog-post-details-onPage">
+                                <h6><i class="fa-regular fa-user"></i> By Admin</h6>
+                                <h6><i class="fa-regular fa-calendar-alt"></i> Jul 03, 2022</h6>
+                                <h6><i class="fa-regular fa-comment"></i> Comment</h6>
+                            </div>
+                            <div class="heading-blog-post">
+                                <h5>Fibonacci Series in Python</h5>
+                                <p>The series sequence in Fibonacci series, named after Italian mathematician name
+                                    Leonardo Pisano Bogollo, also known as Fibonacci, is a series or sequence of sum
+                                    formed by previous two terms called Fibonacci numbers and it is denoted by Fn. The
+                                    numbers in sequence of Fibonacci are given by — 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55,
+                                    . . . </p>
+
+                                <a href="https://medium.com/@shubhnishverma/fibonacci-series-in-python-12da155ebc89"
+                                    target="_blank"><button class="nav-btn">Read More</button></a>
+                            </div>
+                        </div>
+
+
+                        <div class="blog-page-post-box slide-up-element" data-title="Exception Handling in Python">
+                            <div class="blog-page-img-cont">
+                                <img src="blog-3-author.jpg" alt="">
+                            </div>
+
+                            <div class="blog-post-details-onPage">
+                                <h6><i class="fa-regular fa-user"></i> By Admin</h6>
+                                <h6><i class="fa-regular fa-calendar-alt"></i> Jul 03, 2022</h6>
+                                <h6><i class="fa-regular fa-comment"></i> Comment</h6>
+                            </div>
+                            <div class="heading-blog-post">
+                                <h5>Exception Handling in Python</h5>
+                                <p>Exception is an unwanted and unexpected event that occurs during the execution of a
+                                    program i.e., at runtime, that disrupts the flow of the program execution.
+
+                                    In Python, If we have a program and it have some error and just because of that our
+                                    program will stop the execution so, we can try to remove this problem by using some
+                                    exception techniques...</p>
+
+                                <a href="https://medium.com/@shubhnishverma/exception-handling-in-python-b86c3e913303"
+                                    target="_blank"><button class="nav-btn">Read More</button></a>
+                            </div>
+                        </div>
+
+
+                        <!-- Pagination -->
+                        <div id="pagination">
+                            <button id="prev-btn" disabled>Previous</button>
+                            <span id="page-info"></span>
+                            <button id="next-btn">Next</button>
+                        </div>
+
+                    </div>
+
+
+                    <div class="right-blog-page-content">
+                        <div class="search-blog-box">
+                            <form action="" class="d-flex">
+                                <input type="search" id="blogSearchInput" class="form-control" placeholder="search..." onkeyup="filterBlogs()">
+                                <button type="button" class="btn"><i class="bi bi-search"></i></button>
+                            </form>
+                        </div>
+
+
+                        <div class="recent-blog-posts-box">
+                            <h5 class="main-heading-recentPost">Recent Post</h5>
+
+                            <a href="https://medium.com/@shubhnishverma/mastering-web-development-secrets-to-enhance-your-coding-skills-547fe52d7f58"
+                                target="_blank" class="img-heading-des-recent">
+                                <div class="left-img">
+                                    <div class="img-blog-cont">
+                                        <img src="blog-img-1.webp" alt="">
+                                    </div>
+                                </div>
+                                <div class="headingOfBlog-recent">
+                                    <div class="date-name">
+                                        <h6>Feb 2024</h6>
+                                        <h6>By Admin</h6>
+                                    </div>
+                                    <h5>Mastering Web Development</h5>
+                                </div>
+                            </a>
+
+
+
+                            <a href="https://medium.com/@shubhnishverma/exception-handling-in-python-b86c3e913303"
+                                target="_blank" class="img-heading-des-recent">
+                                <div class="left-img">
+                                    <div class="img-blog-cont">
+                                        <img src="blog-3-author.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="headingOfBlog-recent">
+                                    <div class="date-name">
+                                        <h6>Jul 2022</h6>
+                                        <h6>By Admin</h6>
+                                    </div>
+                                    <h5>Exception Handling in Python</h5>
+                                </div>
+                            </a>
+
+
+                            <a href="https://medium.com/@shubhnishverma/fibonacci-series-in-python-12da155ebc89"
+                                target="_blank" class="img-heading-des-recent">
+                                <div class="left-img">
+                                    <div class="img-blog-cont">
+                                        <img src="fibonacci-sequence.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="headingOfBlog-recent">
+                                    <div class="date-name">
+                                        <h6>Jul 2022</h6>
+                                        <h6>By Admin</h6>
+                                    </div>
+                                    <h5>Fibonacci Series in Python</h5>
+                                </div>
+                            </a>
+
+
+                        </div>
+
+
+
+                        <div class="social-on-blogs">
+                            <h5>Follow on Social</h5>
+                            <a href="https://www.instagram.com/shubhnish_verma/" target="_blank"><i class="bi bi-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/shubhnish-verma-2b6654280/" target="_blank"><i class="bi bi-linkedin"></i></a>
+                            <a href="https://www.youtube.com/@VermaCoder?sub_confirmation=1" target="_blank"><i class="bi bi-youtube"></i></a>
+                            <a href="https://github.com/ShubhnishV02/" target="_blank"><i class="bi bi-github"></i></a>
+                            <a href="https://medium.com/@shubhnishverma" target="_blank"><i class="bi bi-medium"></i></a>
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+
+            <!-- Download my Resume Section on Blog -->
+            <section>
+                <div class="downlaod-button-work-section">
+                    <div class="container">
+                        <div class="download-btn-onWork">
+                            <h3 class=" slide-up-element">Download My Resume</h3>
+                            <a href="_Resume_Shubhnish.pdf" download="Shubhnish_Verma_Resume"
+                                class="text-decoration-none"><button type="button" class="download-btn">Download CV <i
+                                        class="bi bi-download"></i></button></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Download my Resume Section on Blog Ends Here -->
+
+        </div>
+    </section>
+    <!-- Blogs Section content start here -->
+
+
+
+
+
+
+
+
+    <!-- Footer Section Starts Here-->
+    <footer>
+        <div class="footer-section">
+            <div class="container">
+                <div class="footer-body">
+                    <div class="footer-img-container">
+                        <a href="index.html" class="text-decoration-none"><img src="port_logo_original.png" alt=""></a>
+                        <h4>Shubhnish Verma</h4>
+                        <p class="designed-desc-footer">Website designed and developed by Shubhnish Verma</p>
+
+                    </div>
+                    <hr style="width: 10%;border: 2px solid white; margin: auto;">
+                    <div class="footer-links">
+                        <ul>
+                            <a href="about.html">
+                                <li>About</li>
+                            </a>
+                            <a href="work.html">
+                                <li>Work</li>
+                            </a>
+                            <a href="Blogs.html">
+                                <li>Blog</li>
+                            </a>
+                            <a href="contact.html">
+                                <li>Contact</li>
+                            </a>
+                        </ul>
+                    </div>
+                    <hr style="border: 1px solid white; margin-bottom: 1rem;">
+                    <p class="copyright-para">Shubhnish Verma@2024 Portfolio, All Rights Reserved</p>
+
+                    <h4 class="text-white mt-4">Follow me</h4>
+                    <div class="footer-social-icons">
+                        <a href="https://www.facebook.com/shubhnish.verma.5" target="_blank"><i
+                                class="bi bi-facebook"></i></a>
+                        <a href="https://www.instagram.com/shubhnish_verma/" target="_blank"><i
+                                class="bi bi-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/shubhnish-verma-2b6654280/" target="_blank"><i
+                                class="bi bi-linkedin"></i></a>
+                        <a href="https://www.youtube.com/@VermaCoder?sub_confirmation=1" target="_blank"><i
+                                class="bi bi-youtube"></i></a>
+                        <a href="https://medium.com/@shubhnishverma" target="_blank"><i class="bi bi-medium"></i></a>
+                        <a href="https://github.com/ShubhnishV02/" target="_blank"><i class="bi bi-github"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Section Ends Here-->
+
+
+
+
+
+
+
+</body>
+<!-- Bootstrap JavaScript CDN -->
+<script src="bootstrap.bundle.min.js"></script>
+<script src="main.js"></script>
+<script src="scripts.js"></script>
+
+</html>

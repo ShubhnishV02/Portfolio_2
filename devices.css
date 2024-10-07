@@ -24,7 +24,7 @@
     .nav-section {
         display: flex;
         justify-content: space-between;
-        align-items: baseline;
+        align-items: center;
         padding: 1.1rem;
         padding-left: 1.5rem;
         padding-right: 1.6rem;
@@ -129,14 +129,14 @@
 
     .nav-btn {
         border: none;
-        padding: 0.5rem 1.1rem;
+        padding: 0.5rem 0.8rem;
         background: linear-gradient(to left, var(--primary-linearcolor), var(--secondary-linearcolor));
         border-radius: 25px;
         color: white;
         font-family: "Sora", sans-serif;
         font-weight: 500;
-        font-size: 15px;
-        margin-top: 0.5rem;
+        font-size: 12px;
+        margin-top: 0.6rem;
     }
 
     .menu-button-small-screen {
@@ -147,6 +147,8 @@
     .menu-button-small-screen i {
         font-size: 2.4rem;
         color: var(--secondary-linearcolor);
+        padding: 0;
+        margin: 0;
     }
 
     #menu-btn {
@@ -1396,11 +1398,11 @@
 
 
     .gear-animation-about .fa-gear {
-        font-size: 7rem;
+        font-size: 4.6rem;
         position: absolute;
-        top: 104%;
-        right: 35%;
-        z-index: 1;
+        top: 99.5%;
+        right: 40.5%;
+        z-index: 2;
         color: var(--primary-linearcolor);
         animation: gearRotation 3s linear infinite;
     }
@@ -1416,10 +1418,10 @@
     }
 
     .gear-animation-about2 .fa-gear {
-        font-size: 4.5rem;
+        font-size: 2.6rem;
         position: absolute;
-        top: 97%;
-        right: 24.5%;
+        top: 96%;
+        right: 33.9%;
         z-index: 1;
         color: var(--secondary-linearcolor);
         animation: gearRotation2 3s linear infinite;
@@ -1526,7 +1528,7 @@
     /* Apply the bubbling effect to each span */
     .bubble-effect span {
         display: inline-block;
-        font-size: 2.52rem;
+        font-size: 2.4rem;
         /* Adjust as needed */
         font-weight: 700;
         margin-bottom: 0;
@@ -3196,11 +3198,11 @@
 
 
     .gear-animation-about .fa-gear {
-        font-size: 7rem;
+        font-size: 5rem;
         position: absolute;
-        top: 104%;
+        top: 99.5%;
         right: 45%;
-        z-index: 1;
+        z-index: 2;
         color: var(--primary-linearcolor);
         animation: gearRotation 3s linear infinite;
     }
@@ -3216,10 +3218,10 @@
     }
 
     .gear-animation-about2 .fa-gear {
-        font-size: 4.5rem;
+        font-size: 3rem;
         position: absolute;
-        top: 97%;
-        right: 39.5%;
+        top: 95%;
+        right: 41.2%;
         z-index: 1;
         color: var(--secondary-linearcolor);
         animation: gearRotation2 3s linear infinite;
@@ -3619,7 +3621,21 @@
 
 
 
+@media (min-width: 576px) and (max-width: 810px) {
+    .container, .container-sm {
+        max-width: 680px;
+    }
 
+    .carousel-section {
+        display: flex;
+        align-items: center;
+        gap: 4%;
+        width: 100%;
+        margin-top: 7rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}
 
 
 

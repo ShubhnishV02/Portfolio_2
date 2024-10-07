@@ -56,11 +56,34 @@ function closeMenu() {
 
 document.addEventListener("DOMContentLoaded", function () {
     // Function to add the slide-up class when elements come into view
-    const observer = new IntersectionObserver((entries) => {
+    const observerUp = new IntersectionObserver((entries) => {
         entries.forEach((entry) => {
             if (entry.isIntersecting) {
                 entry.target.classList.add("slide-up");
-                observer.unobserve(entry.target); // Stop observing once the animation is applied
+                observerUp.unobserve(entry.target); // Stop observing once the animation is applied
+            }
+        });
+    }, {
+        threshold: 0.4 // Trigger when 40% of the element is visible
+    });
+    
+    // Select all elements you want to animate
+    const slideUpElements = document.querySelectorAll(".slide-up-element");
+    slideUpElements.forEach((el) => observerUp.observe(el));
+});
+
+
+
+
+// Slide-Right animation functionality -----------------------------------------------------------------------
+
+document.addEventListener("DOMContentLoaded", function () {
+    // Function to add the slide-right class when elements come into view
+    const observerright = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add("slide-right");
+                observerright.unobserve(entry.target); // Stop observing once the animation is applied
             }
         });
     }, {
@@ -68,6 +91,29 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     // Select all elements you want to animate
-    const slideUpElements = document.querySelectorAll(".slide-up-element");
-    slideUpElements.forEach((el) => observer.observe(el));
+    const slideRightElements = document.querySelectorAll(".wow-rght");
+    slideRightElements.forEach((el) => observerright.observe(el));
+});
+
+
+
+
+// Slide-Left animation functionality -----------------------------------------------------------------------
+
+document.addEventListener("DOMContentLoaded", function () {
+    // Function to add the slide-right class when elements come into view
+    const observerleft = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add("slide-left");
+                observerleft.unobserve(entry.target); // Stop observing once the animation is applied
+            }
+        });
+    }, {
+        threshold: 0.4 // Trigger when 40% of the element is visible
+    });
+
+    // Select all elements you want to animate
+    const slideleftElements = document.querySelectorAll(".wow-left");
+    slideleftElements.forEach((el) => observerleft.observe(el));
 });

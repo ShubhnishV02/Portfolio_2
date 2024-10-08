@@ -563,8 +563,9 @@ body {
     background-color: white;
     padding: 25px;
     padding-left: 40px;
+    padding-bottom: 5px;
     border-radius: 17px;
-    margin-top: 1.7rem;
+    margin-top: 1.6rem;
     transition: all 0.4s ease;
 }
 .education-experience-desc-box:hover {

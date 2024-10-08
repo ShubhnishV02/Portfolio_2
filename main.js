@@ -66,7 +66,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }, {
         threshold: 0.4 // Trigger when 40% of the element is visible
     });
-    
+
     // Select all elements you want to animate
     const slideUpElements = document.querySelectorAll(".slide-up-element");
     slideUpElements.forEach((el) => observerUp.observe(el));
@@ -116,4 +116,31 @@ document.addEventListener("DOMContentLoaded", function () {
     // Select all elements you want to animate
     const slideleftElements = document.querySelectorAll(".wow-left");
     slideleftElements.forEach((el) => observerleft.observe(el));
+});
+
+
+
+
+
+// Disable right-click context menu
+document.addEventListener('contextmenu', function (e) {
+    e.preventDefault();  // This will prevent the right-click menu from appearing
+});
+
+// Restrict inspect element to Ctrl + Shift + J
+document.addEventListener('keydown', function (e) {
+    // Block Ctrl + Shift + I (the default shortcut for opening DevTools)
+    if (e.ctrlKey && e.shiftKey && e.key.toLowerCase() === 'i') {
+        e.preventDefault();  // Block inspect element from opening
+    }
+
+    // Block F12 (another way to open DevTools)
+    if (e.key === 'F12') {
+        e.preventDefault();
+    }
+
+    // Allow only a custom key combination (Ctrl + shift + J)
+    if (e.ctrlKey && e.shiftKey && e.key.toLowerCase() === 'j') {
+        return true;
+    }
 });

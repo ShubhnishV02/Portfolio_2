@@ -481,7 +481,7 @@ body {
 .recent-works-section .section-header {
     width: 50%;
     margin: auto;
-    margin-top: 6.5rem;
+    margin-top: 5rem;
     margin-bottom: 2.5rem;
 }
 
@@ -607,12 +607,12 @@ body {
 .my-skills {
     padding: 2rem 0;
     height: 100%;
-    padding-bottom: 7rem;
+    padding-bottom: 4.5rem;
     margin-bottom: 0rem;
 }
 
 .my-skills-section {
-    margin-top: 5rem;
+    margin-top: 4rem;
     height: 100%;
 }
 
@@ -846,6 +846,7 @@ body {
 .blog-box {
     width: 100%;
     height: 370px;
+    margin-bottom: 2rem;
     border: 1px solid #ccc;
     border-radius: 18px;
     position: relative;
@@ -1821,6 +1822,13 @@ body {
     transform: translateX(60px); /* Start position for the animation */
     transition: opacity 0.7s ease-out;
 }
+
+
+
+
+
+/* Extras CSS styling for design */
+
 
 
 

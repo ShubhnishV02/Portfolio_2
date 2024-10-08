@@ -592,7 +592,7 @@
     .recent-works-section .section-header {
         width: 90%;
         margin: auto;
-        margin-top: 4.5rem;
+        margin-top: 2.8rem;
         margin-bottom: 2.5rem;
     }
 
@@ -677,15 +677,17 @@
     .education-experience-desc-box {
         background-color: white;
         text-align: center;
-        padding: 25px;
+        padding: 20px;
+        padding-bottom: 1px;
+        padding-top: 14px;
         padding-left: 24px;
         border-radius: 17px;
-        margin-top: 1.7rem;
+        margin-top: 1rem;
         transition: all 0.4s ease;
     }
 
     .education-experience-desc-box h4 {
-        font-size: 17px;
+        font-size: 16px;
         font-weight: 600;
         font-family: "Sora", sans-serif;
         color: var(--secondary-linearcolor);
@@ -698,11 +700,12 @@
     }
 
     .education-experience-desc-box h3 .sub-education {
-        font-size: 19px;
+        font-size: 12.5px;
     }
 
     .education-experience-desc-box p {
-        font-size: 16px;
+        font-size: 14px;
+        line-height: 1.2;
     }
 
 
@@ -719,13 +722,13 @@
     .my-skills {
         padding: 2rem 0;
         height: 100%;
-        padding-bottom: 7rem;
+        padding-bottom: 6rem;
         margin-bottom: 0rem;
     }
 
     .my-skills-section {
-        margin-top: 2rem;
-        margin-bottom: 5rem;
+        margin-top: 1.4rem;
+        margin-bottom: 4rem;
         padding-bottom: 0rem;
         height: 100%;
     }
@@ -2477,8 +2480,9 @@
     .education-experience-desc-box {
         background-color: white;
         text-align: center;
-        padding: 25px;
-        padding-left: 24px;
+        padding: 20px;
+        padding-top: 15px;
+        padding-bottom: 5px;
         border-radius: 17px;
         margin-top: 1.7rem;
         transition: all 0.4s ease;
@@ -4166,10 +4170,12 @@
     .education-experience-desc-box {
         background-color: white;
         text-align: center;
-        padding: 25px;
+        padding: 20x;
+        padding-top: 15px;
+        padding-bottom: 5px;
         padding-left: 24px;
         border-radius: 17px;
-        margin-top: 1.7rem;
+        margin-top: 1.5rem;
         transition: all 0.4s ease;
     }
 
@@ -4187,11 +4193,11 @@
     }
 
     .education-experience-desc-box h3 .sub-education {
-        font-size: 19px;
+        font-size: 19.5px;
     }
 
     .education-experience-desc-box p {
-        font-size: 16px;
+        font-size: 16.5px;
     }
 
 

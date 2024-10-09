@@ -645,8 +645,9 @@ body {
 .skills-boxes-with-para {
     display: grid;
     gap: 1.4%;
-    grid-template-columns: repeat(7, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     align-items: center;
+    
 }
 
 .skill-boxes {

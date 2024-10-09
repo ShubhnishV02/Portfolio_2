@@ -10,10 +10,10 @@
     margin-top: 5.5rem;
     height: 400px;
     /* Adjust height as needed */
-    background-image: linear-gradient(to right, var(--secondary-linearcolor), var(--primary-linearcolor)), url("About_carousel_bg.jpg");
+    background-image: linear-gradient(to right, #9458bf 10%, #180738 90%) , url("banner.jpg");
     background-size: cover;
     background-position: center;
-    background-blend-mode: hard-light;
+    background-blend-mode:hard-light;
 }
 
 .bg-overlay {
@@ -82,9 +82,9 @@
     .carousel-back-about {
         position: relative;
         margin-top: 5.5rem;
-        height: 250px;
+        height: 240px;
         /* Adjust height as needed */
-        background-image: linear-gradient(to right, var(--secondary-linearcolor), var(--primary-linearcolor)), url("About_carousel_bg.jpg");
+        background-image: linear-gradient(to right, #9458bf 10%, #180738 90%) , url("banner.jpg");
         background-size: cover;
         background-position: center;
         background-blend-mode: hard-light;
@@ -160,7 +160,7 @@
         margin-top: 5.5rem;
         height: 250px;
         /* Adjust height as needed */
-        background-image: linear-gradient(to right, var(--secondary-linearcolor), var(--primary-linearcolor)), url("About_carousel_bg.jpg");
+        background-image: linear-gradient(to right, #9458bf 10%, #180738 90%) , url("banner.jpg");
         background-size: cover;
         background-position: center;
         background-blend-mode: hard-light;
@@ -237,7 +237,7 @@
         margin-top: 5.5rem;
         height: 290px;
         /* Adjust height as needed */
-        background-image: linear-gradient(to right, var(--secondary-linearcolor), var(--primary-linearcolor)), url("About_carousel_bg.jpg");
+        background-image: linear-gradient(to right, #9458bf 10%, #180738 90%) , url("banner.jpg");
         background-size: cover;
         background-position: center;
         background-blend-mode: hard-light;

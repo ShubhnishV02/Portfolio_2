@@ -1,3 +1,67 @@
+@media screen and (max-width: 350px) {
+    .mobile-hidden{
+        display: none;
+    }
+
+    .carousel-img-container-smallDevices {
+        display: block;
+        width: 180px;
+        rotate: 7deg;
+        transition: all 0.5s ease;
+        position: relative;
+        z-index: 5;
+        margin: auto;
+        margin-bottom: 1.6rem;
+    }
+
+    .carousel-img-container-smallDevices:hover {
+        rotate: 0.5deg;
+    }
+
+    .carousel-img-container-smallDevices img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 20px;
+    }
+
+    .footer-links ul {
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 2.6rem;
+        margin-bottom: 1.6rem;
+    }
+}
+
+@media screen and (min-width:351px) and (max-width: 600px) {
+
+    .carousel-img-container-smallDevices {
+        display: block;
+        width: 235px;
+        rotate: 7deg;
+        transition: all 0.5s ease;
+        position: relative;
+        z-index: 5;
+        margin: auto;
+        margin-bottom: 1.6rem;
+    }
+
+    .carousel-img-container-smallDevices:hover {
+        rotate: 0.5deg;
+    }
+
+    .carousel-img-container-smallDevices img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 20px;
+    }
+}
+
+
+
 @media screen and (max-width: 600px) {
 
     :root {
@@ -300,63 +364,6 @@
         display: none;
     }
 
-    /* .intro_text svg {
-        font-family: "Russo One", sans-serif;
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        left: 49%;
-        top: 71%;
-        transform: translate(-50%, -50%) scale(1);
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        z-index: 1;
-        animation: 3s pulsate infinite alternate ease-in-out;
-    }
-
-    .intro_text svg text {
-        text-transform: uppercase;
-        stroke-width: 0.8;
-        stroke: #9284ab;
-        fill: transparent;
-        font-size: 300px;
-        display: inline-block;
-        opacity: 0;
-    }
-
-    .intro_text svg text.animate-stroke {
-        animation: stroke 4s;
-        opacity: 0.7;
-    }
-
-    @keyframes stroke {
-        0% {
-            stroke-dashoffset: 25%;
-            stroke-dasharray: 0 50%;
-            stroke-width: 1;
-        }
-
-        100% {
-            stroke-dashoffset: 100%;
-            stroke-dasharray: 100% 0;
-            stroke-width: 1;
-        }
-    }
-
-    @keyframes pulsate {
-        0% {
-            transform: translate(-50%, -50%) scale(1);
-        }
-
-        50% {
-            transform: translate(-50%, -50%) scale(1.05);
-        }
-
-        100% {
-            transform: translate(-50%, -50%) scale(1);
-        }
-    } */
 
     .left-desc-part {
         width: 98%;
@@ -396,28 +403,6 @@
         color: rgb(57, 57, 57);
         letter-spacing: 0;
         font-family: "Sora", sans-serif;
-    }
-
-    .carousel-img-container-smallDevices {
-        display: block;
-        width: 250px;
-        rotate: 7deg;
-        transition: all 0.5s ease;
-        position: relative;
-        z-index: 5;
-        margin: auto;
-        margin-bottom: 1.6rem;
-    }
-
-    .carousel-img-container-smallDevices:hover {
-        rotate: 0.5deg;
-    }
-
-    .carousel-img-container-smallDevices img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        border-radius: 20px;
     }
 
     .icons-download-button {
@@ -720,15 +705,15 @@
     /* My Skills Section CSS */
 
     .my-skills {
-        padding: 2rem 0;
+        padding: 1.2rem 0;
         height: 100%;
-        padding-bottom: 6rem;
+        padding-bottom: 1rem;
         margin-bottom: 0rem;
     }
 
     .my-skills-section {
-        margin-top: 1.4rem;
-        margin-bottom: 4rem;
+        margin-top: 2rem;
+        margin-bottom: 4.2rem;
         padding-bottom: 0rem;
         height: 100%;
     }
@@ -756,7 +741,7 @@
 
     .skills-boxes-with-para {
         display: grid;
-        gap: 2%;
+        gap: 1%;
         grid-template-columns: repeat(2, 1fr);
         align-items: center;
         position: relative;
@@ -768,8 +753,8 @@
     }
 
     .skill_box {
-        width: 98%;
-        /* height: 180px; */
+        width: 90%;
+        height: 165px;
         border: 0.2px solid #f6f3fc;
         background-color: #f3effc;
         margin: auto;
@@ -778,8 +763,8 @@
     }
 
     .skill_box .skill-img-container {
-        width: 80px;
-        height: 80px;
+        width: 70px;
+        height: 70px;
         margin: auto;
         margin-top: 1.5rem;
     }
@@ -1145,7 +1130,8 @@
         font-family: "Sora", sans-serif;
         color: var(--primary-linearcolor);
         font-size: 19px;
-        text-wrap: wrap;
+        text-wrap:wrap;
+        word-break: break-all;
     }
 
 
@@ -1189,6 +1175,7 @@
     .footer-links ul {
         list-style: none;
         display: flex;
+        /* flex-wrap: wrap; */
         justify-content: center;
         margin-top: 2.6rem;
         margin-bottom: 1.6rem;
@@ -1221,6 +1208,7 @@
     }
 
     .intro-section .section-title {
+        font-size: 2rem;
         margin-bottom: 2rem;
     }
 
@@ -1531,7 +1519,7 @@
     /* Apply the bubbling effect to each span */
     .bubble-effect span {
         display: inline-block;
-        font-size: 2.4rem;
+        font-size: 9vw;
         /* Adjust as needed */
         font-weight: 700;
         margin-bottom: 0;
@@ -2523,13 +2511,13 @@
     .my-skills {
         padding: 2rem 0;
         height: 100%;
-        padding-bottom: 2rem;
-        margin-bottom: 1rem;
+        padding-bottom: 1.2rem;
+        margin-bottom: 0rem;
     }
 
     .my-skills-section {
         margin-top: 2rem;
-        margin-bottom: 5rem;
+        margin-bottom: 3rem;
         padding-bottom: 0rem;
         height: 100%;
     }
@@ -3332,7 +3320,7 @@
     /* Apply the bubbling effect to each span */
     .bubble-effect span {
         display: inline-block;
-        font-size: 4.42rem;
+        font-size: 8.6vw;
         /* Adjust as needed */
         font-weight: 700;
         margin-bottom: 0;
@@ -5883,7 +5871,7 @@
 
     .my-skills-section {
         margin-top: 2rem;
-        margin-bottom: 4rem;
+        margin-bottom: 3.2rem;
         padding-bottom: 0rem;
         height: 100%;
     }
@@ -5912,7 +5900,7 @@
     .skills-boxes-with-para {
         display: grid;
         gap: 2%;
-        grid-template-columns: repeat(6, 1fr);
+        grid-template-columns: repeat(5, 1fr);
         align-items: center;
         position: relative;
         height: 100%;
@@ -7576,7 +7564,7 @@
     .skills-boxes-with-para {
         display: grid;
         gap: 2%;
-        grid-template-columns: repeat(6, 1fr);
+        grid-template-columns: repeat(5, 1fr);
         align-items: center;
         position: relative;
         height: 100%;

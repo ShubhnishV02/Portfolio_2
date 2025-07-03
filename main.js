@@ -40,7 +40,7 @@ function openMenu() {
 }
 
 function closeMenu() {
-    menuOpenClosePage.style.right = "-650px";
+    menuOpenClosePage.style.right = "-1115px";
     overlayBody.classList.remove("visible");
     PageBody.style.overflow = "auto";
     menuBTN.style.display = "block";
